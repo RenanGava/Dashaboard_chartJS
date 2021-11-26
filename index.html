@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>DashBoard</title>
+</head>
+<body>
+    <div class="container">
+        <header class="left-menu">
+            <div class="title-menu">
+                <h2>Menu</h2>
+            </div>
+            <ul>
+                <li><a href="#">Lorem ipsum<i class="fas fa-chevron-right"></i></a></li>
+                <li><a href="#">Lorem ipsum<i class="fas fa-chevron-right"></i></a></li>
+                <li><a href="#">Lorem ipsum<i class="fas fa-chevron-right"></i></a></li>
+                <li><a href="#">Lorem ipsum<i class="fas fa-chevron-right"></i></a></li>
+                <li><a href="#">Lorem ipsum<i class="fas fa-chevron-right"></i></a></li>
+                <li><a href="#">Lorem ipsum<i class="fas fa-chevron-right"></i></a></li>
+                <li><a href="#">Lorem ipsum<i class="fas fa-chevron-right"></i></a></li>
+                <li><a href="#">Lorem ipsum<i class="fas fa-chevron-right"></i></a></li>
+                <li><a href="#">Lorem ipsum<i class="fas fa-chevron-right"></i></a></li>
+                <li><a href="#">Lorem ipsum<i class="fas fa-chevron-right"></i></a></li>
+            </ul>
+        </header><!--left-menu-->
+
+        <section class="content-graphics">
+            <div class="tab-bar">
+                <div class="icons-left">
+                    <a href="#"><i class="fas fa-address-card"></i></a>
+                    <a href="#"><i class="fas fa-bell"></i></a>
+                    <a href="#"><i class="fas fa-cogs"></i></a>
+                </div><!--icons-left-->
+
+                <div class="icons-right">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fab fa-accusoft"></i></a>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-content">
+                    <div class="top-content">
+                        <div class="icon">icone</div>
+                        <div class="a"><a href="">Ver mais</a></div>
+                    </div>
+                    <div class="content-text">
+                        <p>Dolar</p>
+                        <h2>0.00$</h2>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="card-content">
+                    <div class="top-content">
+                        <div class="icon">icone</div>
+                        <div class="a"><a href="">Ver mais</a></div>
+                    </div>
+                    <div class="content-text">
+                        <p>Euro</p>
+                        <h2>0.00€</h2>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="top-content">
+                        <div class="icon">icone</div>
+                        <div class="a"><a href="">Ver mais</a></div>
+                    </div>
+                    <div class="content-text">
+                        <p>Real</p>
+                        <h2>0.00R$</h2>
+                    </div>
+                </div>
+            </div><!--cards-content-->
+            <div class="graphics">
+                <div class="content">
+                    <canvas id="myChart"></canvas>
+                </div>
+                <div class="content-radar">
+                    <canvas id="myChart1"></canvas>
+                </div>
+                <div class="content-rosca">
+                    <canvas id="myChart2"></canvas>
+                </div>
+                <div class="content-rosca">
+                    <canvas id="myChart3"></canvas>
+                </div>
+                <div class="content-bars">
+                    <canvas id="myChart4"></canvas>
+                </div>
+            </div><!--graphics-->
+        </section><!--content-graphics-->
+    </div><!--container-->
+    <script src="https://kit.fontawesome.com/183d2999e7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
